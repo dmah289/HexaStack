@@ -2,7 +2,7 @@
 - Hexa Sort thuộc thể loại Puzzle
 - Gameplay chính được thiết kế xoay quanh việc đặt các stack hexa được sinh ra lên lưới → Ô vừa được đặt stack lên sẽ tìm kiếm hàng xóm theo 6 cạnh của hexa mà có những hexa trên đỉnh stack cùng màu với hexa trên đỉnh stack của nó. Khi đã tìm thấy tất cả hàng xóm sẽ bắt đầu trộn các hexa cùng màu trên đỉnh với nhau theo các tiêu chí được thiết kế. Các stack có sự thay đổi trạng thái sẽ tiếp tục được kiểm tra để trộn với các hàng xóm của nó.
 <p align="center">
-  <img src="Demo/GamePlay.png" alt="Gameplay" style="width: 20%;">
+  <img src="Demo/GamePlay.png" alt="Gameplay" style="width: 30%;">
 </p>
 
 # Game Mechanic (Core Loop)
@@ -27,7 +27,7 @@
 	- 1 stack chứa nhiều hexa (ít nhất 1)
 2. Biểu đồ
 <p align="center">
-  <img src="Demo/HexaModel.jpg" alt="Model" style="width: 50%;">
+  <img src="Demo/HexaModel.jpg" alt="Model" style="width: 60%;">
 </p>
 
 # Core Pillar
@@ -72,8 +72,8 @@
 			- Chỉ số hàng (Luôn sắp xếp được theo chỉ số hàng do không tồn tại 2 stack cạnh nhau nằm trên 1 hàng)
 		- Nếu tìm thấy hơn 1 stack, lưu lại stack hiện tại và các stack tìm được để so sánh theo chỉ số hàng, nếu cùng hàng sẽ so sánh chỉ số cột
 		<p style="text-align: center;">
-		<img src="Demo/IndexOffset.JPG" alt="Index Offset" style="width: 30%; display: inline-block; margin-right: 50px;">
-		<img src="Demo/CheckNeighbor.png" alt="Check Neighbor" style="width: 30%; display: inline-block;">
+		<img src="Demo/IndexOffset.JPG" alt="Index Offset" style="width: 40%; display: inline-block; margin-right: 50px;">
+		<img src="Demo/CheckNeighbor.png" alt="Check Neighbor" style="width: 40%; display: inline-block;">
 		</p>
 
 	- Sau khi sắp xếp theo các tiêu chí trên tồn tại 3 trường hợp xét theo số lượng stack trong danh sách:
