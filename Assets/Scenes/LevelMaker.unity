@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44402185, g: 0.49316472, b: 0.57223153, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -250,9 +250,9 @@ MonoBehaviour:
   hexa_R: 1.1
   hexa_r: 0.965
   gridCellEditor: {fileID: 4755009714472246762, guid: ff40b6e855d7ffc4c90760a123e053dc, type: 3}
-  levelIndex: 2
-  gridSize: 6
-  maxHexAmount: 40
+  levelIndex: 3
+  gridSize: 8
+  maxHexAmount: 100
   newLevel: {fileID: 0}
   currentType: 0
 --- !u!4 &882281245

@@ -22,7 +22,7 @@ public class LevelManager : MonoBehaviour
     // Management
     [SerializeField] public List<HexagonStack> spawnedStacks;
     [SerializeField] public int currentHexaAmount;
-    [SerializeField] public int maxLevel;
+    [SerializeField] public int maxLevel = 4;
     [SerializeField] public Text HexaCountText;
 
     // Level Data

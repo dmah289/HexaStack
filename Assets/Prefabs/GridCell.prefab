@@ -47,6 +47,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   renderer: {fileID: 5349453841720635187}
+  row: 0
+  col: 0
+  isMoving: 0
+  isCompleting: 0
   stack: {fileID: 0}
 --- !u!1 &5815360437834325234
 GameObject:

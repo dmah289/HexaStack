@@ -95,7 +95,7 @@ public class MergeController2 : MonoBehaviour
     {
         List<GridCell> similarColorCells = new List<GridCell>();
         int upperBound = row % 2 == 1 ? 12 : 6;
-
+        print($"{row} - {col}");
         for(int i = row % 2 == 1 ? 6 : 0; i < upperBound; i++)
         {
             if (row + neighborOffsetZ[i] < 0 || row + neighborOffsetZ[i] >= gridSize || col + neighborOffsetX[i] < 0 || col + neighborOffsetX[i] >= gridSize)
@@ -114,7 +114,7 @@ public class MergeController2 : MonoBehaviour
     {
         while (toCell.IsBusy || fromCell.IsBusy)
         {
-            Debug.Log($"{fromCell.name} - {fromCell.IsBusy} - {toCell.name} - {toCell.IsBusy}");
+            //Debug.Log($"{fromCell.name} - {fromCell.IsBusy} - {toCell.name} - {toCell.IsBusy}");
             yield return null;
         }
             
